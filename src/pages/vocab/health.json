@@ -1,0 +1,27 @@
+[
+  {
+    "english": "doctor",
+    "polish": "lekarz",
+    "phonetic": "ˈlɛkaʂ"
+  },
+  {
+    "english": "medicine",
+    "polish": "lekarstwo",
+    "phonetic": "lɛˈkarstvɔ"
+  },
+  {
+    "english": "pharmacy",
+    "polish": "apteka",
+    "phonetic": "apˈtɛka"
+  },
+  {
+    "english": "hospital",
+    "polish": "szpital",
+    "phonetic": "ˈʂpital"
+  },
+  {
+    "english": "pain",
+    "polish": "ból",
+    "phonetic": "bul"
+  }
+]

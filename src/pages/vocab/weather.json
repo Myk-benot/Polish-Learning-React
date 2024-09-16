@@ -1,0 +1,27 @@
+[
+  {
+    "english": "sun",
+    "polish": "słońce",
+    "phonetic": "ˈswɔɲt͡sɛ"
+  },
+  {
+    "english": "rain",
+    "polish": "deszcz",
+    "phonetic": "dɛʂt͡ʂ"
+  },
+  {
+    "english": "wind",
+    "polish": "wiatr",
+    "phonetic": "vʲatr"
+  },
+  {
+    "english": "snow",
+    "polish": "śnieg",
+    "phonetic": "ɕɲɛɡ"
+  },
+  {
+    "english": "cloud",
+    "polish": "chmura",
+    "phonetic": "ˈxmura"
+  }
+]

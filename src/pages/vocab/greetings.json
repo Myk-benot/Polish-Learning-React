@@ -1,0 +1,27 @@
+[
+  {
+    "english": "hello",
+    "polish": "cześć",
+    "phonetic": "ˈt͡ʂɛɕt͡ɕ"
+  },
+  {
+    "english": "good morning",
+    "polish": "dzień dobry",
+    "phonetic": "d͡ʑɛɲ ˈdɔbrɨ"
+  },
+  {
+    "english": "good evening",
+    "polish": "dobry wieczór",
+    "phonetic": "ˈdɔbrɨ ˈvjɛt͡ʂur"
+  },
+  {
+    "english": "good night",
+    "polish": "dobranoc",
+    "phonetic": "dɔˈbranɔt͡s"
+  },
+  {
+    "english": "goodbye",
+    "polish": "do widzenia",
+    "phonetic": "dɔ vʲidˈzɛɲa"
+  }
+]

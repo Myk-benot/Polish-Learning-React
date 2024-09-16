@@ -1,0 +1,27 @@
+[
+  {
+    "english": "airport",
+    "polish": "lotnisko",
+    "phonetic": "lɔtˈɲiskɔ"
+  },
+  {
+    "english": "ticket",
+    "polish": "bilet",
+    "phonetic": "ˈbilɛt"
+  },
+  {
+    "english": "passport",
+    "polish": "paszport",
+    "phonetic": "ˈpaʂpɔrt"
+  },
+  {
+    "english": "hotel",
+    "polish": "hotel",
+    "phonetic": "ˈxɔtɛl"
+  },
+  {
+    "english": "reservation",
+    "polish": "rezerwacja",
+    "phonetic": "rɛzɛrˈvat͡sja"
+  }
+]

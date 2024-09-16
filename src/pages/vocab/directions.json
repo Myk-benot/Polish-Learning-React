@@ -1,0 +1,27 @@
+[
+  {
+    "english": "left",
+    "polish": "lewo",
+    "phonetic": "ˈlɛvɔ"
+  },
+  {
+    "english": "right",
+    "polish": "prawo",
+    "phonetic": "ˈpravɔ"
+  },
+  {
+    "english": "straight",
+    "polish": "prosto",
+    "phonetic": "ˈprɔstɔ"
+  },
+  {
+    "english": "back",
+    "polish": "wstecz",
+    "phonetic": "fstɛt͡ʂ"
+  },
+  {
+    "english": "turn",
+    "polish": "skręć",
+    "phonetic": "skrɛɲt͡ɕ"
+  }
+]

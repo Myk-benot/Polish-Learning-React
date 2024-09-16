@@ -1,0 +1,27 @@
+[
+  {
+    "english": "one",
+    "polish": "jeden",
+    "phonetic": "ˈjɛdɛn"
+  },
+  {
+    "english": "two",
+    "polish": "dwa",
+    "phonetic": "dva"
+  },
+  {
+    "english": "three",
+    "polish": "trzy",
+    "phonetic": "tʂɨ"
+  },
+  {
+    "english": "four",
+    "polish": "cztery",
+    "phonetic": "ˈt͡ʂtɛrɨ"
+  },
+  {
+    "english": "five",
+    "polish": "pięć",
+    "phonetic": "pjɛɲt͡ɕ"
+  }
+]
