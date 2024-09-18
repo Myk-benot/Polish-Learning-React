@@ -5,19 +5,19 @@ function Nav() {
     <nav className="nav">
       <ul>
         <li>
-          <Link to="/Home">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/Vocab-Home">Vocabulary </Link>
+          <Link to="/Vocab-Home">Vocabulary</Link>
         </li>
         <li>
-          <Link to="/Grammar-Home">Grammar </Link>
+          <Link to="/Grammar-Home">Grammar</Link>
         </li>
         <li>
-          <Link to="/#">Culture </Link>
+          <Link to="/culture">Culture</Link>
         </li>
         <li>
-          <Link to="/#">Quizzes </Link>
+          <Link to="/#">Quizzes</Link>
         </li>
       </ul>
     </nav>

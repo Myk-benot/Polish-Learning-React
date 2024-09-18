@@ -10,8 +10,11 @@
 .grammar-home-div {
   padding: 20px;
   border-radius: 8px;
-  width: 100%;
-  max-width: 800px;
+  min-width: 75%;
+}
+
+.grammar-home-container h1 {
+  color: #007bff;
 }
 
 .grammar-home-list {

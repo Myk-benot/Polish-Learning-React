@@ -1,0 +1,80 @@
+{
+  "arts": [
+    {
+      "type": "music",
+      "name": "Polonez",
+      "description": "A slow dance of Polish origin, in triple meter.",
+      "videoUrl": "http://example.com/polonez-video"
+    },
+    {
+      "type": "music",
+      "name": "Mazurka",
+      "description": "A lively Polish folk dance in triple meter.",
+      "videoUrl": "http://example.com/mazurka-video"
+    },
+    {
+      "type": "music",
+      "name": "Chopin's Nocturnes",
+      "description": "A collection of 21 pieces for solo piano written by Frédéric Chopin.",
+      "videoUrl": "http://example.com/chopin-nocturnes-video"
+    },
+    {
+      "type": "literature",
+      "author": "Adam Mickiewicz",
+      "works": [
+        {
+          "title": "Pan Tadeusz",
+          "description": "An epic poem considered the national epic of Poland."
+        }
+      ]
+    },
+    {
+      "type": "literature",
+      "author": "Wisława Szymborska",
+      "works": [
+        {
+          "title": "View with a Grain of Sand",
+          "description": "A collection of poems by the Nobel Prize-winning poet."
+        }
+      ]
+    },
+    {
+      "type": "music",
+      "name": "Krakowiak",
+      "description": "A fast, syncopated Polish dance in duple meter.",
+      "videoUrl": "http://example.com/krakowiak-video"
+    },
+    {
+      "type": "music",
+      "name": "Oberek",
+      "description": "A fast-paced Polish folk dance.",
+      "videoUrl": "http://example.com/oberek-video"
+    },
+    {
+      "type": "literature",
+      "author": "Henryk Sienkiewicz",
+      "works": [
+        {
+          "title": "Quo Vadis",
+          "description": "A historical novel set in ancient Rome."
+        }
+      ]
+    },
+    {
+      "type": "literature",
+      "author": "Czesław Miłosz",
+      "works": [
+        {
+          "title": "The Captive Mind",
+          "description": "A collection of essays on totalitarianism."
+        }
+      ]
+    },
+    {
+      "type": "music",
+      "name": "Gorzkie żale",
+      "description": "A traditional Polish Catholic devotion and hymn.",
+      "videoUrl": "http://example.com/gorzkie-zale-video"
+    }
+  ]
+}

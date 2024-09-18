@@ -4,6 +4,7 @@ import Footer from "./components/Footer.jsx";
 import Home from "./pages/Home.jsx";
 import VocabHome from "/home/myk/Desktop/Polish-Learning/src/pages/vocab/Vocab-Home.jsx";
 import GrammarHome from "./pages/grammar/Grammar-Home.jsx";
+import CultureHomePage from "./pages/culture/Culture.jsx";
 import VocabSection from "/home/myk/Desktop/Polish-Learning/src/components/VocabSection.jsx";
 import GrammarSection from "./components/GrammarSection.jsx";
 
@@ -14,7 +15,7 @@ function App() {
     <div className="App">
       <Nav />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/vocab-home" element={<VocabHome />} />
         <Route path="/grammar-home" element={<GrammarHome />} />
         <Route path="/travel" element={<VocabSection section="travel" />} />
@@ -48,6 +49,7 @@ function App() {
           path="/singular-plural"
           element={<GrammarSection section="singularplural" />}
         />
+        <Route path="/culture" element={<CultureHomePage />} />
       </Routes>
       <Footer />
     </div>
