@@ -48,5 +48,55 @@
     "english": "Is it going to rain tomorrow?",
     "polish": "Czy jutro będzie padać deszcz?",
     "phonetic": "t͡ʂɨ ˈjutrɔ ˈbɛɲd͡ʑɛ ˈpadaɕ dɛʂt͡ʂ"
+  },
+  {
+    "english": "Where can I find a good restaurant?",
+    "polish": "Gdzie mogę znaleźć dobrą restaurację?",
+    "phonetic": "ɡd͡ʑɛ ˈmɔɡɛ ˈznalɛɕt͡ɕ ˈdɔbrɔ̃ rɛstauˈrat͡sɛjɛ"
+  },
+  {
+    "english": "Can you recommend a good hotel?",
+    "polish": "Czy możesz polecić dobry hotel?",
+    "phonetic": "t͡ʂɨ ˈmɔʐɛʂ pɔˈlɛt͡ɕ ˈdɔbrɨ ˈxɔtɛl"
+  },
+  {
+    "english": "I would like to order food, please.",
+    "polish": "Proszę o zamówienie jedzenia.",
+    "phonetic": "ˈprɔʂɛ ɔ zaˈmuvjɛɲɛ jɛˈd͡zɛɲa"
+  },
+  {
+    "english": "How much does this cost?",
+    "polish": "Ile to kosztuje?",
+    "phonetic": "ˈilɛ tɔ kɔʂˈtujɛ"
+  },
+  {
+    "english": "Can I have the menu, please?",
+    "polish": "Czy mogę prosić o menu?",
+    "phonetic": "t͡ʂɨ ˈmɔɡɛ ˈprɔɕiʨ ɔ ˈmɛnʲu"
+  },
+  {
+    "english": "I feel unwell, I need a doctor.",
+    "polish": "Czuję się źle, potrzebuję lekarza.",
+    "phonetic": "ˈt͡ʂujɛ ɕɛ ˈʐlɛ pɔt͡ʂɛˈbujɛ lɛˈkaʐa"
+  },
+  {
+    "english": "Where is the nearest bus stop?",
+    "polish": "Gdzie jest najbliższy przystanek autobusowy?",
+    "phonetic": "ɡd͡ʑɛ jɛst najˈbliʐʂɨ pʂɨˈstanɛk ˌautɔbuˈsɔvɨ"
+  },
+  {
+    "english": "Can you help me find a taxi?",
+    "polish": "Czy możesz mi pomóc znaleźć taksówkę?",
+    "phonetic": "t͡ʂɨ ˈmɔʐɛʂ mi ˈpɔmut͡s ˈznalɛɕt͡ɕ takˈsufkɛ"
+  },
+  {
+    "english": "What time does the train leave?",
+    "polish": "O której odjeżdża pociąg?",
+    "phonetic": "ɔ kʊˈtrɛj ɔdˈjɛʐd͡ʑa ˈpɔt͡ɕɔŋk"
+  },
+  {
+    "english": "I need a map of the city.",
+    "polish": "Potrzebuję mapy miasta.",
+    "phonetic": "pɔt͡ʂɛˈbujɛ ˈmapɨ ˈmʲasta"
   }
 ]

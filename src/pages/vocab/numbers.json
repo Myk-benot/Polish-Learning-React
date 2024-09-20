@@ -23,5 +23,75 @@
     "english": "five",
     "polish": "pięć",
     "phonetic": "pjɛɲt͡ɕ"
+  },
+  {
+    "english": "six",
+    "polish": "sześć",
+    "phonetic": "ʂɛɕt͡ɕ"
+  },
+  {
+    "english": "seven",
+    "polish": "siedem",
+    "phonetic": "ˈɕɛdɛm"
+  },
+  {
+    "english": "eight",
+    "polish": "osiem",
+    "phonetic": "ˈɔɕɛm"
+  },
+  {
+    "english": "nine",
+    "polish": "dziewięć",
+    "phonetic": "d͡ʑɛˈvʲɛɲt͡ɕ"
+  },
+  {
+    "english": "ten",
+    "polish": "dziesięć",
+    "phonetic": "d͡ʑɛˈɕɛɲt͡ɕ"
+  },
+  {
+    "english": "eleven",
+    "polish": "jedenaście",
+    "phonetic": "jɛdɛˈnaɕt͡ɕɛ"
+  },
+  {
+    "english": "twelve",
+    "polish": "dwanaście",
+    "phonetic": "dvaˈnaɕt͡ɕɛ"
+  },
+  {
+    "english": "thirteen",
+    "polish": "trzynaście",
+    "phonetic": "tʂɨˈnaɕt͡ɕɛ"
+  },
+  {
+    "english": "fourteen",
+    "polish": "czternaście",
+    "phonetic": "t͡ʂtɛˈnaɕt͡ɕɛ"
+  },
+  {
+    "english": "fifteen",
+    "polish": "piętnście",
+    "phonetic": "pjɛt͡ɕˈnaɕt͡ɕɛ"
+  },
+  {
+    "english": "twenty",
+    "polish": "dwadzieścia",
+    "phonetic": "dvaˈdʑɛɕt͡ɕa"
+  },
+  {
+    "english": "thirty",
+    "polish": "trzydzieści",
+    "phonetic": "tʂɨˈd͡ʑɛɕt͡ɕi"
+  },
+  {
+    "english": "forty",
+    "polish": "czterdzieści",
+    "phonetic": "t͡ʂtɛrˈd͡ʑɛɕt͡ɕi"
+  },
+  {
+    "english": "fifty",
+    "polish": "pięćdziesiąt",
+    "phonetic": "pjɛɲˈd͡ʑɛʃɔnt"
   }
 ]
