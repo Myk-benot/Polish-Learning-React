@@ -1,6 +1,7 @@
 import { useState } from "react";
 import data from "../pages/vocab/vocab-index.js";
-import "/home/myk/Desktop/Polish-Learning/src/vocab.css";
+import VoiceButton from "./VoiceButton";
+import "/home/myk/Desktop/Polish-Learning/src/CSS/vocab.css";
 
 function VocabSection({ section }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -51,6 +52,7 @@ function VocabSection({ section }) {
         >
           Next
         </button>
+        <VoiceButton text={sectionData[currentIndex].polish} />
       </div>
     </div>
   );

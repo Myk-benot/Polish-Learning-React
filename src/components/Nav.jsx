@@ -14,10 +14,10 @@ function Nav() {
           <Link to="/Grammar-Home">Grammar</Link>
         </li>
         <li>
-          <Link to="/culture">Culture</Link>
+          <Link to="/MiscForm">Misc-Form</Link>
         </li>
         <li>
-          <Link to="/#">Quizzes</Link>
+          <Link to="/Misc">Misc</Link>
         </li>
       </ul>
     </nav>

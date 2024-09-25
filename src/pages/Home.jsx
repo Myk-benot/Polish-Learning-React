@@ -1,4 +1,4 @@
-import "../Home.css";
+import "/home/myk/Desktop/Polish-Learning/src/CSS/Home.css";
 import { GiPoland } from "react-icons/gi";
 import { GoBook } from "react-icons/go";
 import { TbAbc } from "react-icons/tb";
@@ -16,13 +16,13 @@ function Home() {
         </div>
         <div className="feature">
           <GoBook className="icon" />
-          <h2>Master Grammar</h2>
+          <h2>Learn Grammar</h2>
           <p>Practice grammar rules through interactive exercises.</p>
         </div>
         <div className="feature">
           <GiPoland className="icon" />
-          <h2>Explore Polish Culture</h2>
-          <p>Learn about Polish customs, history, and traditions.</p>
+          <h2>Add Your Own Vocabulary</h2>
+          <p>Add your own vocabulary to the app.</p>
         </div>
       </div>
       <h2>What users say:</h2>

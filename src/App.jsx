@@ -1,16 +1,30 @@
+import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav.jsx";
 import Footer from "./components/Footer.jsx";
 import Home from "./pages/Home.jsx";
-import VocabHome from "/home/myk/Desktop/Polish-Learning/src/pages/vocab/Vocab-Home.jsx";
+import VocabHome from "./pages/vocab/Vocab-Home.jsx";
 import GrammarHome from "./pages/grammar/Grammar-Home.jsx";
-import CultureHomePage from "./pages/culture/Culture.jsx";
-import VocabSection from "/home/myk/Desktop/Polish-Learning/src/components/VocabSection.jsx";
+import VocabSection from "./components/VocabSection.jsx";
 import GrammarSection from "./components/GrammarSection.jsx";
-
-import "./App.css";
+import Misc from "./pages/misc/Misc.jsx";
+import MiscForm from "./pages/misc/MiscForm.jsx";
+import "/home/myk/Desktop/Polish-Learning/src/CSS/App.css";
 
 function App() {
+  const [miscItems, setMiscItems] = useState([]);
+
+  useEffect(() => {
+    const savedItems = JSON.parse(localStorage.getItem("miscItems")) || [];
+    setMiscItems(savedItems);
+  }, []);
+
+  const handleAddMisc = (newItem) => {
+    const updatedItems = [...miscItems, newItem];
+    setMiscItems(updatedItems);
+    localStorage.setItem("miscItems", JSON.stringify(updatedItems));
+  };
+
   return (
     <div className="App">
       <Nav />
@@ -49,7 +63,11 @@ function App() {
           path="/singular-plural"
           element={<GrammarSection section="singularplural" />}
         />
-        <Route path="/culture" element={<CultureHomePage />} />
+        <Route path="/misc" element={<Misc />} />
+        <Route
+          path="/MiscForm"
+          element={<MiscForm onAddMisc={handleAddMisc} />}
+        />
       </Routes>
       <Footer />
     </div>
