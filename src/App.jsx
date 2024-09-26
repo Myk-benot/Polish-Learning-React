@@ -35,8 +35,8 @@ function App() {
         <Route path="/travel" element={<VocabSection section="travel" />} />
         <Route path="/numbers" element={<VocabSection section="numbers" />} />
         <Route
-          path="/basic-phrases"
-          element={<VocabSection section="basic-phrases" />}
+          path="/basicphrases"
+          element={<VocabSection section="basicphrases" />}
         />
         <Route path="/phrases" element={<VocabSection section="phrases" />} />
         <Route

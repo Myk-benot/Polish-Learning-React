@@ -1,17 +1,31 @@
 import "/home/myk/Desktop/Polish-Learning/src/CSS/VoiceButton.css";
 
-const VoiceButton = ({ text }) => {
-  const handleSpeak = () => {
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "pl-PL";
-    window.speechSynthesis.speak(utterance);
+function VoiceButton({ section, text }) {
+  const sanitizeFilename = (filename) => {
+    return filename.replace(/ /g, "_").replace(/[\/\\]/g, "_");
+  };
+
+  const sanitizedText = sanitizeFilename(text);
+  const audioSrc = `/audio/${section}_${sanitizedText}.mp3`;
+
+  const handlePlay = () => {
+    const audio = new Audio(audioSrc);
+
+    audio
+      .play()
+      .then(() => {
+        console.log("Audio is playing");
+      })
+      .catch((error) => {
+        console.error("Error playing audio:", error);
+      });
   };
 
   return (
-    <button className="voice-button" onClick={handleSpeak}>
-      Hear Pronunciation
+    <button className="voice-button" onClick={handlePlay}>
+      Play
     </button>
   );
-};
+}
 
 export default VoiceButton;
