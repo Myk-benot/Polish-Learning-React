@@ -21,7 +21,6 @@ json_files = [
     'greetings.json',
     'directions.json',
     'travel.json',
-    'phrases.json',
     'basicphrases.json',
     'health.json',
     'numbers.json',
@@ -39,7 +38,7 @@ for json_file in json_files:
  
     json_file_path = os.path.join(os.path.dirname(__file__), 'pages', 'vocab', json_file)
     
-    print(f"Attempting to open: {json_file_path}")  # Debug statement
+    print(f"Attempting to open: {json_file_path}") 
     
   
     try:
@@ -62,3 +61,6 @@ for json_file in json_files:
             print(f"Error generating audio for: {word} in {json_file}, Error: {str(e)}")
 
 print("Audio generation completed.")
+
+
+

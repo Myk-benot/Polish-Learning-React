@@ -10,6 +10,10 @@ function VoiceButton({ section, text }) {
 
   const handlePlay = () => {
     const audio = new Audio(audioSrc);
+    console.log("Section:", section);
+    console.log("Text:", text);
+    console.log("Sanitized Text:", sanitizedText);
+    console.log("Audio Source:", audioSrc);
 
     audio
       .play()

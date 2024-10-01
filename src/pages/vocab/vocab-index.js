@@ -1,7 +1,6 @@
 import greetings from "./greetings.json";
 import directions from "./directions.json";
 import travel from "./travel.json";
-import phrases from "./phrases.json";
 import basicphrases from "./basicphrases.json";
 import health from "./health.json";
 import numbers from "./numbers.json";
@@ -13,7 +12,6 @@ const data = {
   directions,
   travel,
   basicphrases,
-  phrases,
   health,
   numbers,
   weather,
