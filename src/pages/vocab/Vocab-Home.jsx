@@ -17,9 +17,6 @@ function VocabHome() {
             <Link to="/basicphrases">Basic Phrases</Link>
           </li>
           <li>
-            <Link to="/phrases">Longer Phrases</Link>
-          </li>
-          <li>
             <Link to="/greetings">Greetings</Link>
           </li>
           <li>
